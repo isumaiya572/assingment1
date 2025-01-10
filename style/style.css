@@ -1,0 +1,71 @@
+/*font link from google */
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /*head style*/
+  nav{
+    margin: 31px 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar{
+    font-size: 30px;
+    font-style: 700;
+    color: #0E0E0E;
+
+  }
+  .btn-1{
+    background-color: #F1F1F3;
+    width: 116px;
+    height: 40px;
+    font-size: 18px;
+    border: 2px solid #006A50;
+    font-style: Semibold;
+    color: #006A50;
+    border-radius: 5px;
+    
+  }
+  /*banner style*/
+  .banner{
+    display: flex;
+    margin: 0px 160px;
+    height: 500px;
+    background-color: #88c9b9;
+    background-size: cover;
+    border-radius: 24px;
+  }
+  .banner-content{
+    margin: 60px 50px;
+  }
+  .banner-titel{ 
+    margin-bottom: -30px;
+    font-size: 24px;
+    color: #555555f8;
+    font-style: medium;
+  }
+  .banner-description{
+
+    font-size: 56px;
+    font-style: bold;
+    color: #0E0E0E;
+  }
+  .btn-primary{
+    font-size: 18px;
+    font-style: Semibold;
+    margin-top: -20px;
+    height: 60px;
+    width: 270px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #006A50;
+    border-radius: 8px;
+  }
+  .banner-sied-picture{
+        margin: 80px 64px;
+  }
+ 
+  
+  
