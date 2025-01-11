@@ -285,6 +285,47 @@
   border-radius: 8px;
 }
 /*last pera */
+.newsletter{
+  margin: auto;
+  padding-left: 30px;
+  text-align: center;
+  background-color: rgb(198, 228, 214);
+  height: 400px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.newsletter input{
+  width: 516px;
+  height: 47px;
+  background-color: white;
+  border: none;
+  padding:  16px;
+  outline: none;
+}
+
+.newsletter .input-box button{
+  border-radius: 0px 8px 8px 0px;
+  padding: 14.62px 29.24px 14.62px 29.24px;
+  background: rgb(0, 106, 80);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.newsletter button:hover{
+  background-color:#7a725f;
+  transform: scale(1.05);
+  transition:  0.05s linear;
+}
+.newsletter .input-box{
+  display: flex;
+
+}
 
 
 
