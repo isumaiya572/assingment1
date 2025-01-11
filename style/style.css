@@ -5,6 +5,9 @@
     font-style: normal;
   }
   /*head style*/
+  body{
+    background-color: #F1F1F3;
+  }
   nav{
     margin: 31px 160px;
     display: flex;
@@ -22,7 +25,7 @@
     width: 116px;
     height: 40px;
     font-size: 18px;
-    border: 2px solid #006A50;
+    border: 1px solid #006A50;
     font-style: Semibold;
     color: #006A50;
     border-radius: 5px;
@@ -66,6 +69,223 @@
   .banner-sied-picture{
         margin: 80px 64px;
   }
+  /*Main stylefor the vision of future*/
+  .section{
+
+    text-align: left;
+    margin: 80px 160px;
+  }
+  .section-title{
+     
+    font-style: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+  }
+  .section-description{
+    margin-top: 24px;
+    font-size: 16px;
+    font-style: Regular;
+    color: #454242de;
+
+  }
+  .ideas{
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    padding: 0px 160px;
+    gap: 24px;
+  }
+  .ideas-container{
+    background-color: #679cf7;
+    border-radius: 8px;
+    padding: 24px;
+    width: 500px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgb(0,0,0,0.1);
+    transition: transfrom 0.3s, box shadow 0.3s;
+  }
+  .ideas-container-one{
+    background-color:  #C6E4D6;
+    border-radius: 8px;
+    padding: 24px;
+    width: 500px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgb(0,0,0,0.1);
+    transition: transfrom 0.3s, box shadow 0.3s;
+  }
+  .ideas-container-tow{
+    background-color: #F7EBCF;
+    border-radius: 8px;
+    padding: 24px;
+    width: 500px;
+    text-align: left;
+    box-shadow: 0 4px 6px rgb(0,0,0,0.1);
+    transition: transfrom 0.3s, box shadow 0.3s;
+  }
+  .idea-title{
+    font-size: 20px;
+    font-style: bold;
+    color: #0E0E0E;
+  }
+  .idea-description{
+    margin-top: -20px;
+    font-size: 16px;
+    color: #424242e2;
+  }
+  .ideas-container button{
+    font-size: 15px;
+    font-style: Semibold;
+    height: 50px;
+    width: 150px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #5490F5;
+    border-radius: 8px;
+  
+  }
+  .btn-green{
+    font-size: 15px;
+    font-style: Semibold;
+    margin: 24px 0;
+    height: 50px;
+    width: 150px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #09A15C;
+    border-radius: 8px;
+  }
+  .btn-orange{
+    font-size: 15px;
+    font-style: Semibold;
+    margin: 24px 0;
+    height: 50px;
+    width: 150px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #FFC239;
+    border-radius: 8px;
+  }
+  .btn-green:hover{
+    background-color: #7a725f;
+  }
+  .btn-orange:hover{
+    background-color: #7a725f;
+  }
+  .ideas-container button:hover{
+     background-color: #7a725f;
+  }
+  .challenges-section-one{
+    float: left;
+    margin: 32px 160px;
+    background-color: white;
+    border-radius: 5px;
+    border-width: 60px;
+    background-repeat: no-repeat;
+    background-image:  url(../assets/quote-bg.png);
+  }
+.section-content{
+    margin-top: 20px;
+    height: 200px;
+    padding: 0 30px;
+    border-radius: 8px;
+    line-height: 1.3;
+    box-shadow: 0 4px 6px rgb(0,0,0,0.1);
+}
+.section-end{
+    margin-top: 0;
+    font-size: 16px;
+    font-style: #606060df;
+ }
+.donate{
+  height: 400px;
+  margin-top: 24px;
+  text-align: center;
+}
+.heading-2{
+  font-size: 40px;
+  font-style: bold;
+}
+.pera-2{
+  font-size: 16px;
+  font-style: regular;
+  margin: 0 32px;
+  text-align: center;
+}
+.btn-containar{
+ justify-content: space-around;
  
-  
-  
+}
+.donate-btn{
+  margin-top: 24px;
+   height: 120px;
+   width: 252px;
+   font-size: 40px;
+   font-style: bold;
+   background-color: #FFFFFF;
+   gap: 30px;
+   border-radius: 16px;
+   border: 1px ;
+   box-shadow: 1.3px;
+}
+.donate-btn-1{
+  background-color: #679cf7;
+}
+.donate-btn:hover{
+  background-color: #09A15C;
+}
+.donate .text-in  input{
+  width: 910px;
+  height: 55.04px;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 20px;
+  text-align: center;
+  outline: none;
+
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 17.2px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+}
+/*satellite part*/
+.news{
+  padding: 160px;
+}
+.news .satelite{
+  width: 350.88px;  
+  height: 263.16px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.news .container1{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: center;
+  gap: 25px;
+  padding: 38.4px;
+  background-color: white;
+  border-radius: 20px;
+}
+.news .container1 h1{
+  margin-top:24px;
+}
+.btn-primary-4{
+  font-size: 16px;
+  font-style: Semibold;
+  margin-top: -20px;
+  height: 40px;
+  width: 100px;
+  border: none;
+  color: #FFFFFF;
+  background-color: #006A50;
+  border-radius: 8px;
+}
+/*last pera */
+
+
+
+ 
