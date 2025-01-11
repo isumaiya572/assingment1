@@ -184,7 +184,7 @@
     background-image:  url(../assets/quote-bg.png);
   }
 .section-content{
-    margin-top: 20px;
+    margin-top: 18px;
     height: 200px;
     padding: 0 30px;
     border-radius: 8px;
@@ -284,6 +284,9 @@
   background-color: #006A50;
   border-radius: 8px;
 }
+.btn-primary-4:hover{
+  background-color: #7a725f;
+}
 /*last pera */
 .newsletter{
   margin: auto;
@@ -325,7 +328,7 @@
 }
 .newsletter .input-box{
   display: flex;
-
+  
 }
 /*footer*/
 footer{
