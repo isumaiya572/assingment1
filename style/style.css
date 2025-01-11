@@ -287,6 +287,7 @@
 /*last pera */
 .newsletter{
   margin: auto;
+  margin-top: 20px;
   padding-left: 30px;
   text-align: center;
   background-color: rgb(198, 228, 214);
@@ -325,6 +326,29 @@
 .newsletter .input-box{
   display: flex;
 
+}
+/*footer*/
+footer{
+  height: 226px;
+  background-color: white;
+}
+
+footer .footer{
+  text-align: center;
+  display:  flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+footer .footer .social{
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  width: 964.92px;
+  border-top: 1px solid rgba(14, 14, 14, 0.1);
+  padding-top: 35px;
 }
 
 
